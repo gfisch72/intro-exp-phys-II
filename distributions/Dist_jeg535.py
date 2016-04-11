@@ -11,12 +11,15 @@ class Dist_jeg535(BaseDistribution):
 
 	def pdf(self, x):
 		"""This is your PDF"""
-		return np.cos(x)
+		return x*x
 
 	def mean(self):
 		"""This is the mean of the PDF"""
-		return .072
+		return  15.735
+
 
 	def std(self):
 		"""This is the standard deviation of the pdf"""
-		return np.sqrt(0.27)
+		return 15.552
+
+		
